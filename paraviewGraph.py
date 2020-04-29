@@ -1,3 +1,6 @@
+import sys 
+import vtk 
+import os
 if __name__ == "__main__":
    pointSource = vtk.vtkPointSource()
    pointSource.Update()
